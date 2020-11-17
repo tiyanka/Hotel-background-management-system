@@ -1,37 +1,27 @@
 # 酒店后台管理系统
 
 #### 介绍
-一个精简的基于SSM框架开发的酒店后台管理系统
-
-#### 软件架构
-软件架构说明
+一个精简的基于SSM框架开发的酒店后台管理系统；
+其主要功能包括对住客，房间和会员信息管理，同时可以下载房间和会员信息的数据；
+前端实现采用了layui-Qadmin模板；整体简约大气，使用方便快捷，欢迎各大佬下载使用，或二次开发，如有不妥的地方还望请各大佬多提意见。
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+直接导入IDE工具，配置tomcat服务器和mysql数据库，运行即可
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  运行登陆
+2.  左栏操作相应功能
 
-#### 参与贡献
+#### 部分页面截图
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  登录页
+![登录页](https://images.gitee.com/uploads/images/2020/1117/162628_f93ff93b_7714675.png "XYP5U{497KBMW@K09ZD7U$Y.png")
+2.  首页
+![首页](https://images.gitee.com/uploads/images/2020/1117/162832_91dce9af_7714675.png "}N[N6SJHK)[1NBYI5HUI_CB.png")
+3.  添加住客
+![添加](https://images.gitee.com/uploads/images/2020/1117/162923_3ec2cbc5_7714675.png "(ORL08N1R(TWS7K8`}%{_65.png")
+4.  房间列表显示
+![列表](https://images.gitee.com/uploads/images/2020/1117/162948_f631b162_7714675.png "@XA61(DBHR}XOT62CZ~$N(B.png")
