@@ -93,7 +93,7 @@
                 <div class="layui-form-item">
                     <label class="layui-form-label">手机号</label>
                     <div class="layui-input-block">
-                        <input type="text" name="Phone" required  placeholder="请填写手机号" autocomplete="off" class="layui-input">
+                        <input type="number" name="Phone" oninput="if(value.length>11)value=value.slice(0,11)" required  placeholder="请填写手机号" autocomplete="off" class="layui-input">
                     </div>
                 </div>
 

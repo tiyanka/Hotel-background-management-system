@@ -43,7 +43,6 @@ public class ExcelController {
         titleRow.createCell(4).setCellValue("状态");
         titleRow.createCell(5).setCellValue("描述");
 
-        //获取需要下载表对应的pojo类
         for(Home home:homeList){
             HSSFRow dataRow = sheet.createRow(sheet.getLastRowNum()+1);
             dataRow.createCell(0).setCellValue(home.getId());

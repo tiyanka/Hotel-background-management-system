@@ -6,7 +6,7 @@ public class Vip {
     private String Name;
     private String Sex;
     private long Card;
-    private String Phone;
+    private long Phone;
     private String V_Type;
     private String StartTime;
     private String EndTime;
@@ -14,7 +14,7 @@ public class Vip {
     public Vip() {
     }
 
-    public Vip(int id, String name, String sex, long card, String phone, String v_Type, String startTime, String endTime) {
+    public Vip(int id, String name, String sex, long card, long phone, String v_Type, String startTime, String endTime) {
         Id = id;
         Name = name;
         Sex = sex;
@@ -57,11 +57,11 @@ public class Vip {
         Card = card;
     }
 
-    public String getPhone() {
+    public long getPhone() {
         return Phone;
     }
 
-    public void setPhone(String phone) {
+    public void setPhone(long phone) {
         Phone = phone;
     }
 

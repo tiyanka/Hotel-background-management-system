@@ -26,7 +26,7 @@ public class HomeController {
 
         String sqlPath = null;
         //定义文件保存的本地路径
-        String localPath="E:\酒店后台管理系统\程序\upload";
+        String localPath="E:\\Java 项目\\Hotel_Manage\\src\\main\\webapp\\upload";
         //定义 文件名
         String filename=null;
         if(!home.getFile().isEmpty()){
@@ -80,7 +80,7 @@ public class HomeController {
     public String update2(Home h)throws IOException{
         String sqlPath = null;
         //定义文件保存的本地路径
-        String localPath="E:\酒店后台管理系统\程序\upload";
+        String localPath="E:\\Java 项目\\Hotel_Manage\\src\\main\\webapp\\upload";
         //定义 文件名
         String filename=null;
         if(!h.getFile().isEmpty()){

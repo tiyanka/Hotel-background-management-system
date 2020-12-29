@@ -2,18 +2,18 @@ package com.hotel.pojo;
 
 public class Guests {
 
-   private int Id;
-   private String Name;
-   private String Sex;
-   private long Card;
-   private String Phone;
-   private String EnterTime;
+    private int Id;
+    private String Name;
+    private String Sex;
+    private long Card;
+    private long Phone;
+    private String EnterTime;
     private String ExitTime;
     private int Num;
     private String H_Type;
 
 
-    public Guests(int id, String name, String sex, long card, String phone, String enterTime, String exitTime, int num, String h_Type) {
+    public Guests(int id, String name, String sex, long card, long phone, String enterTime, String exitTime, int num, String h_Type) {
         Id = id;
         Name = name;
         Sex = sex;
@@ -60,11 +60,11 @@ public class Guests {
         Card = card;
     }
 
-    public String getPhone() {
+    public long getPhone() {
         return Phone;
     }
 
-    public void setPhone(String phone) {
+    public void setPhone(long phone) {
         Phone = phone;
     }
 
