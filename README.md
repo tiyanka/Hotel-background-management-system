@@ -24,4 +24,8 @@
 3.  添加住客
 ![添加](https://images.gitee.com/uploads/images/2020/1117/162923_3ec2cbc5_7714675.png "(ORL08N1R(TWS7K8`}%{_65.png")
 4.  房间列表显示
+<<<<<<< HEAD
 ![列表](https://images.gitee.com/uploads/images/2020/1117/162948_f631b162_7714675.png "@XA61(DBHR}XOT62CZ~$N(B.png")
+=======
+![列表](https://images.gitee.com/uploads/images/2020/1117/162948_f631b162_7714675.png "@XA61(DBHR}XOT62CZ~$N(B.png")
+>>>>>>> origin/master
